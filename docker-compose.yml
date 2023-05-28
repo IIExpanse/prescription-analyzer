@@ -1,0 +1,22 @@
+version: '3.1'
+services:
+#  prescriptions-analyzer:
+#    build: auth-server
+#    image: auth-server
+#    container_name: auth-server-container
+#    ports:
+#      - "8080:8080"
+#    depends_on:
+#      - auth-db
+
+  prescriptions-db:
+    image: postgres:14-alpine
+    container_name: prescriptions-db-container
+    ports:
+      - "6541:5432"
+    volumes:
+      - /var/lib/postgresql/data/
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: iamroot
+      POSTGRES_DB: prescriptions-db

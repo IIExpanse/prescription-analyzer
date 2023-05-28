@@ -1,0 +1,8 @@
+.finances {
+    margin-top: 20px;
+}
+
+.finance.one {
+    flex-direction: column;
+    margin-left: 100px;
+}

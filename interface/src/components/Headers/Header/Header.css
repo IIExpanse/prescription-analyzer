@@ -1,0 +1,43 @@
+.header {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 14px;
+}
+
+.header p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.head-svg div {
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 8px 5px;
+    width: 30px;
+    background: #E0F5FF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.head-svg div:hover {
+    background-color: #57c7ff;
+}
+
+.head-svg div:hover svg path {
+    fill: #FFFFFF;
+}
+
+.edit {
+    background-color: #2F9FD8 !important;
+    transform: 0.3s;
+}
+
+.edit svg path {
+    fill: white;
+}

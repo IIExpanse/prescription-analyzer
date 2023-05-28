@@ -1,0 +1,33 @@
+.modal-document {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-document:last-child input[type=text] {
+    width: 525px;
+    height: 40px;
+    border: 1.5px solid #2F9FD8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.doc-dwnld {
+    width: 545px;
+    height: 220px;
+    color: #2F9FD8;
+    line-height: 25px;
+    border: 1.5px dashed #2F9FD8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.doc-dwnld:hover {
+    background: #E0F5FF;
+}

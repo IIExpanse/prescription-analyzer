@@ -1,0 +1,257 @@
+.main.one {
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.main.one.two {
+    margin-left: 0px;
+}
+
+.work {
+    margin: 20px 0 30px 50px;
+}
+
+@media screen and (width: 1520px) {
+    .App {
+        width: 1500px;
+    }
+
+    .main.one {
+        margin-left: 0;
+    }
+
+    .work {
+        margin-left: 5px;
+    }
+
+    .notes {
+        margin-left: 5px;
+    }
+
+    .main.one.two {
+        margin-left: 0px;
+    }
+
+    .events {
+        margin: 20px 5px 20px 20px;
+    }
+}
+
+@media (width: 1920px) and (height : 1440px) {
+    .Menu {
+        height: 95vh;
+    }
+    .Menu.one {
+        justify-content: start;
+    }
+    
+    .Buttons {
+        margin-top: 30px;
+    }
+    .finances {
+        margin-top: 150px !important;
+    }
+    .work {
+        margin-top: 0;
+    }
+    .events {
+        margin-top: 70px;
+        height: 500px;
+    }
+    .patients-box {
+        margin-top: 100px;
+        height: 300px;
+    }
+    .main.one.two {
+        margin-top: 30px;
+    }
+    .notes {
+        height: 690px;
+        margin-bottom: 125px;
+    }
+    .workers {
+        height: 320px;
+    }
+    .documentation {
+        height: 320px;
+    }
+}
+
+@media (width: 1920px) and (height : 1080px) {
+    .Menu {
+        height: 1010px;
+    }
+    .notes {
+        height: 505px;
+    }
+}
+
+@media (min-width: 800px) and (max-width : 1355px) {
+    .App {
+        min-height: 130vh;
+        min-width: 130vw;
+    }
+}
+
+@media (width: 1366px) and (height : 768px) {
+    .App {
+        min-height: 130vh;
+        min-width: 130vw;
+    }
+    .Menu {
+        height: 930px;
+    }
+    .notes {
+        height: 505px;
+        width: 890px;
+    }
+    .work {
+        margin-top: 20px;
+    }
+    .main.one {
+        margin-left: 80px;
+    }
+    .main.one.two {
+        margin-left: 100px;
+    }
+    .documentation {
+        margin-left: 20px;
+    }
+    .graphic {
+        margin-right: 0px !important;
+    }
+    .doc-calc {
+        margin-left: 10px;
+    }
+}
+
+@media (width: 1536px) and (height : 864px) {
+    .App {
+        min-height: 130vh;
+        min-width: 130vw;
+    }
+    .Menu {
+        height: 1052px;
+    }
+    .notes {
+        height: 505px;
+        width: 890px;
+    }
+    .work {
+        margin-top: 20px;
+    }
+    .main.one {
+        margin-left: 80px;
+    }
+    .main.one.two {
+        margin-left: 100px;
+    }
+    .documentation {
+        margin-left: 20px;
+    }
+    .graphic {
+        margin-right: 0px !important;
+    }
+    .doc-calc {
+        margin-left: 10px;
+    }
+}
+
+@media (width: 1440px) and (height : 900px) {
+    .App {
+        min-height: 130vh;
+        min-width: 130vw;
+    }
+    .Menu {
+        height: 1100px;
+    }
+    .notes {
+        height: 505px;
+        width: 890px;
+    }
+    .work {
+        margin-top: 20px;
+    }
+    .main.one {
+        margin-left: 80px;
+    }
+    .main.one.two {
+        margin-left: 100px;
+    }
+    .documentation {
+        margin-left: 20px;
+    }
+    .graphic {
+        margin-right: 0px !important;
+    }
+    .doc-calc {
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (width: 2560px) and (height : 1440px) {
+    .App {
+        min-height: 130vh;
+        min-width: 130vw;
+    }
+    .Menu {
+        height: 1800px;
+    }
+    .notes {
+        height: 900px;
+        width: 1000px;
+    }
+    
+    .workers {
+        height: 400px;
+        width: 600px;
+    }
+    .documentation  {
+        width: 380px;
+        width: 380px;
+    }
+    .documentation table{
+        width: 380px;
+    }
+    .main.one {
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    .main.one.two {
+        margin-left: 1000px;
+    }
+    .documentation {
+        height: 400px;
+        margin-left: 20px;
+    }
+    .patients-box {
+        width: 700px;
+        margin-top: 200px;
+    }
+    .button {
+        width: 162px;
+        height: 150px;
+    }
+    .patients-box td {
+        width: 250px !important;
+    }
+    .events {
+        width: 700px;
+        height: 500px;
+        margin-top: 100px;
+    }
+    .protocol {
+        width: 700px;
+    }
+
+    .events-list {
+        margin-top: 20px;
+        width: 800px;
+        margin-bottom: 100px;
+    }
+    .analiz {
+        margin-left: 120px;
+    }
+}

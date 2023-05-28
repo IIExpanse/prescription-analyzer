@@ -1,0 +1,253 @@
+.worker-list {
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.graphic-doc {
+    background-color: white;
+    border-radius: 15px;
+    height: 62px;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 30px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.graphic-doc:hover {
+    background: #E0F5FF;
+}
+
+.workerlist-head {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.search2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    min-height: 40px;
+    background: #E0F5FF;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.search2 div {
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.search2 input {
+    width: 400px;
+    line-height: 17px;
+    background: #E0F5FF;
+    border: none;
+    outline: none;
+}
+
+.search2 input::placeholder {
+    color: #2F9FD8;
+}
+
+.search2 svg {
+    margin-right: 10px;
+}
+
+.search2 svg:first-child {
+    margin-top: 2px;
+}
+
+.doc-otdels {
+    flex-direction: column;
+    width: 89vw;
+}
+
+.doc-otdel {
+    min-height: 54px;
+    min-width: 130px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 30px 10px 30px 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.doc-otdel:hover {
+    background: #B2E6FF;
+}
+
+.doc-otdel:hover div {
+    background-color: white;
+}
+
+.doc-otdel div {
+    height: 24px;
+    width: 23px;
+    border-radius: 5px;
+    background: #B2E6FF;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: 0.1s;
+}
+
+.doctors {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.worker-name {
+    padding-left: 30px !important;
+}
+
+.doctors td {
+    width: 205px;
+    padding: 0 10px;
+    transition: 0.2s;
+    text-align: left;
+}
+
+.workers-table {
+    overflow: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    height: 520px;
+}
+
+.worker-doc {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.work-icon:hover {
+    background: #2F9FD8 !important;
+}
+
+.work-icon:hover path {
+    fill: white;
+}
+
+.worker-divs {
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.work-icons div {
+    margin-right: 20px;
+}
+
+.worker-doc:hover {
+    background: #E0F5FF;
+}
+
+.worker-doc:hover .give-task {
+    background: white;
+}
+
+.worker-doc:hover .worker-graph {
+    background: white;
+}
+
+.worker-doc:hover .work-icon {
+    background: white;
+}
+
+.worker-doc:hover .appeal {
+    background: white;
+}
+
+.appeal {
+    background: #E0F5FF;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #125576;
+    height: 23px;
+    transition: 0.1s;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.worker-graph {
+    background: #E0F5FF;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+    width: 110px;
+    padding: 0 15px;
+    color: #125576;
+}
+
+.worker-graph p {
+    margin: 0 20px;
+}
+
+.give-task {
+    background: #E0F5FF;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #125576;
+    cursor: pointer;
+    transition: 0.1s;
+    height: 35px;
+    width: 175px;
+}
+
+.give-task:hover,
+.worker-graph:hover,
+.appeal:hover {
+    background: #2F9FD8 !important;
+    color: white;
+}
+
+.give-task svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    transition: 0.1s;
+}
+
+.give-task path,
+.worker-graph path {
+    transition: 0.1s;
+}
+
+.give-task:hover path,
+.worker-graph:hover path {
+    fill: white;
+}
+
+.work-icon {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    background: #E0F5FF;
+    border-radius: 10px;
+    align-items: center;
+    transition: 0.1 s;
+    justify-content: center;
+}

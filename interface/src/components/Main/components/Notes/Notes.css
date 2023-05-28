@@ -1,0 +1,225 @@
+.notes {
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 485px;
+    width: 900px;
+    margin: 30px 0px 0px 50px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.note-title {
+    background: linear-gradient(90.37deg, #DBE6EC 0%, #F0DED6 100%);
+    font-size: 14px;
+    color: #2F9FD8;
+    transition: 0.5s;
+    border-collapse: collapse;
+    height: 35px;
+    text-align: left;
+}
+
+.title-date {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.note-title svg {
+    margin: 2px 0px 0px 5px;
+}
+
+.note-title .surname {
+    padding-right: 30px !important;
+}
+
+.note-title .otdel {
+    padding-right: 30px !important;
+}
+
+.note-title .doctor {
+    padding-right: 10px !important;
+}
+
+.note-title .phone {
+    padding-right: 10px !important;
+}
+
+.status {
+    align-items: center;
+    padding-right: 50px !important;
+}
+
+.status2 {
+    align-items: center;
+    padding-right: 140px !important;
+}
+
+.surname2 {
+    padding-right: 20px !important;
+}
+
+.otdel2 {
+    align-items: center;
+    padding-right: 30px !important;
+}
+
+.doctor2 {
+    align-items: center;
+    padding-right: 15px !important;
+}
+
+.phone2 {
+    align-items: center;
+    padding-right: 10px !important;
+}
+
+.note-title td {
+    width: 105px;
+    padding: 10px 10px;
+    transition: 0.2s;
+}
+
+.note-title div {
+    cursor: pointer;
+}
+
+.note {
+    border-collapse: collapse;
+}
+
+.note td {
+    width: 105px;
+    padding: 0 10px;
+    transition: 0.2s;
+}
+
+.doc {
+    text-align: left;
+    transition: 0.4s;
+    font-size: 14px;
+    line-height: 17px;
+    height: 40px;
+}
+
+.doc:hover {
+    background: #E0F5FF;
+}
+
+.doc div div {
+    border-radius: 5px;
+    width: 45px;
+    margin-top: 9px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.direct {
+    padding: 0 30px !important;
+}
+
+.note-time {
+    width: 40px !important;
+}
+
+.date {
+    width: 80px !important;
+    margin: 11px 0 0 18px;
+    padding: 0 0 0 10px !important;
+}
+
+.doctor {
+    width: 130px !important;
+}
+
+.close-note {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+    background: #2F9FD8;
+    border-radius: 10px;
+    width: 30px !important;
+    height: 30px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-note-td {
+    padding: 0 0 0 20px !important;
+}
+
+.close-note:hover {
+    opacity: 1;
+}
+
+.tab {
+    border-radius: 5px;
+    width: 124px;
+    height: 23px;
+    font-size: 14px;
+    justify-content: center;
+    margin-top: 9px;
+    align-items: center;
+    text-align: center;
+}
+
+.tab.acc {
+    background: #B3E6FF;
+    color: #125576;
+}
+
+.tab.ans {
+    border: 1px solid #00000017;
+}
+
+.tab.proc {
+    background: #B7FFBE;
+    color: #126015;
+}
+
+.tab.dis {
+    background: #FFD0D0;
+    color: #AB3535;
+}
+
+.tab.err {
+    color: #ffffff;
+    background: #000000;
+}
+
+.tab.end {
+    background: #DEDEDE;
+    color: #6F6F6F;
+}
+
+.time-acc {
+    background: #B3E6FF;
+    color: #125576;
+}
+
+.time-dis {
+    color: #AB3535;
+    background: #FFD0D0;
+}
+
+.time-proc {
+    color: #126015;
+    background: #B7FFBE;
+}
+
+.time-end {
+    color: #6F6F6F;
+    background: #DEDEDE;
+}
+
+.time-err {
+    color: #ffffff;
+    background: #000000;
+}
+
+.time-ans {
+    border: 1px solid #00000017;
+}

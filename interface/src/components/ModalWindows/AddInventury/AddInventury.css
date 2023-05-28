@@ -1,0 +1,12 @@
+.modal-invent input[type=text] {
+    width: 404px;
+    height: 40px;
+    border: 1.5px solid #2F9FD8;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.modal-invent input[type=text]:last-child {
+    width: 100px;
+    margin-left: 10px;
+}

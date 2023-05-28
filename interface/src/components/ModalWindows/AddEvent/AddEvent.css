@@ -1,0 +1,13 @@
+.modal-event input[type="text"] {
+    margin-top: 20px;
+    width: 330px;
+    height: 40px;
+    border: 1.5px solid #2F9FD8;
+    border-radius: 10px;
+}
+
+.modal-event input[type="time"] {
+    margin-top: 21px;
+    width: 130px;
+    margin-left: 18px;
+}

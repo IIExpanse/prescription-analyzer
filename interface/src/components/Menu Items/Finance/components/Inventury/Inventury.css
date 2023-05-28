@@ -1,0 +1,36 @@
+.inventury {
+    flex-direction: column;
+    width: 500px;
+    height: 437px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px 20px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.inv-count {
+    background: #E0F5FF;
+    border-radius: 5px;
+    width: 71px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #125576;
+    transition: 0.2s;
+}
+
+.exp-prod {
+    transition: 0.2s;
+}
+
+.exp-prod:hover {
+    background: #E0F5FF;
+}
+
+.exp-prod:hover .inv-count {
+    background: #2F9FD8;
+    color: white;
+}

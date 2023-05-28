@@ -1,0 +1,32 @@
+.search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 33px;
+    background: linear-gradient(90.25deg, #D5E9F3 0%, #E4E3E3 100%);
+    text-align: center;
+}
+
+.search div {
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.search input {
+    line-height: 17px;
+    background: linear-gradient(90.25deg, #D5E9F3 0%, #E4E3E3 100%);
+    border: none;
+    outline: none;
+}
+
+.search input::placeholder {
+    color: #2F9FD8;
+}
+
+.search svg {
+    margin-right: 10px;
+}
+
+.search svg:first-child {
+    margin-top: 2px;
+}

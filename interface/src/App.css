@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: "Century Gothic";
+  cursor: default;
+  background: linear-gradient(116.82deg, #C9EDFF 0%, #FFD8C5 100%);
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../public/fonts/centurygothic.ttf") format("woff2"),
+    url("../public/fonts/centurygothic.ttf") format("woff");
+}
+
+.App div {
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+}
+
+.phone.notees {
+  flex-direction: column;
+}
+
+.phone.notees :first-child {
+  width: 526px;
+  margin-bottom: 20px;
+}
+
+.phone.notees :last-child {
+  width: 526px;
+  margin-left: 0;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name.note {
+  width: 526px;
+}

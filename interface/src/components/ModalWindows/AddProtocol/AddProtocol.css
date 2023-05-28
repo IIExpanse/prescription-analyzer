@@ -1,0 +1,32 @@
+.prot-btns {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.prot-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 550px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.analiz-prot {
+    background: #2F9FD8;
+    border-radius: 10px;
+    width: 175px;
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    transition: 0.3s;
+    color: white;
+    margin: 20px 150px 0px 185px;
+}
+
+.analiz-prot:hover {
+    background: #B3E6FF;
+    color: #125576;
+}

@@ -1,0 +1,191 @@
+.result-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 1018px;
+    height: 895px;
+    display: flex;
+    flex-direction: column;
+}
+
+.result-content div {
+    align-items: center;
+}
+
+.result-content button {
+    width: 123px;
+    height: 35px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    background: #B3E6FF;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.result-content button:hover {
+    background: #2F9FD8;
+    color: white;
+}
+
+.main-result {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.main-result-divs {
+    flex-direction: column;
+}
+
+.res-head {
+    margin: 10px 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.res {
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: normal !important;    
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.res.compliance {
+    width: 579px;
+    height: 510px;
+}
+
+.res.patient-count {
+    width: 425px;
+    height: 510px;
+}
+
+.graph-state {
+    overflow-x: scroll;
+    max-height: 200px;
+    min-width: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.graph-state-two{
+    flex-direction: column;
+    margin-left: 30px;
+    overflow-x: scroll;
+    max-height: 200px;
+    min-width: 150px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.data-state {
+    background: #91FF9C;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.graph-state div p {
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    margin: 0px 5px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.graph-state-two div p {
+    font-family: 'Century Gothic';
+    font-weight: 400;
+    margin: 0px 5px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.pat-count {
+    margin-top: 5px;
+    width: 360px;
+}
+
+.graph-pat {
+    margin-top: 20px;
+    min-width: 500px;
+    min-height: 200px;
+}
+
+.patient-info-table {
+    flex-direction: column;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.patient-info-table table {
+    width: 100%;
+}
+
+.tab.error {
+    background: #FFD8C5;
+    color: #C94200;
+}
+
+.surname3 {
+    padding-left: 48px !important;
+}
+
+.doctor3 {
+    padding-right: 112px !important;
+}
+
+.otdel3 {
+    padding-right: 43px !important;
+}
+
+.phone3 {
+    padding-right: 157px !important;
+}
+
+.pat-tabl td {
+    width: 120px;
+    text-align: left;
+}
+
+.pat-id {
+    width: 10px !important;
+    padding: 0 !important;
+}
+
+.pat-infoid {
+    padding: 0 20px;
+    width: 200px;
+}
+
+.pat-direct {
+    width: 150px !important;
+}
+
+.pat-diagnoz {
+    width: 300px !important;
+}
+
+.pat-appoint {
+    width: 350px !important;
+}
+
+.count-margin {
+    margin-left: 100px;
+}
+
+.graph-pie {
+    margin-top: 10px;
+    margin-left: 20px;
+}

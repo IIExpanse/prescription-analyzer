@@ -1,0 +1,45 @@
+.nav {
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff99;
+    box-shadow: 0px 2px 7px #0000001a;
+    height: 70px;
+}
+
+.nav p {
+    color: #125576;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 25px;
+}
+
+.autorization {
+    text-align: center;
+    align-items: center;
+}
+
+.div_icon {
+    width: 37px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0px 5px 0px 30px;
+    transition: 0.55s;
+}
+
+.div_icon:hover {
+    cursor: pointer;
+    background-color: #0071BC;
+}
+
+.div_icon:hover svg path {
+    fill: #FFFFFF;
+}
+
+.autorization p {
+    color: black;
+    font-size: 18px;
+}
