@@ -14,7 +14,8 @@ import java.util.*;
 
 @Component
 public class MSKTemplatePrescriptionsParser {
-    private static final Set<String> endWords = Set.of("да", "Да", "по", "показаниям", "при", "отсутствии", "противопоказаний", "качестве");
+    private static final Set<String> endWords = Set.of(
+            "да", "Да", "по", "показаниям", "при", "отсутствии", "противопоказаний", "качестве");
 
     public List<List<String>> parsePrescriptions(File file) throws IOException {
         PDFParser parser = new PDFParser(

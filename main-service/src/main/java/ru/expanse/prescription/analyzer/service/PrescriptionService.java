@@ -30,21 +30,6 @@ public class PrescriptionService {
     private boolean discrepancyFound;
     private final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
     private final String reportsPath = "reports/";
-    private long dirCounter = 1;
-
-    public void prepareReports(String prescriptionsPath) throws FileNotFoundException {
-        String dateTime = LocalDateTime.now().format(formatter);
-        String reportsPath = this.reportsPath + dateTime;
-        if (Files.exists(Path.of(ResourceUtils.getFile(reportsPath).getPath()))) {
-            reportsPath = reportsPath + "-" + dirCounter++;
-
-        } else {
-            dirCounter = 1;
-        }
-        new File(reportsPath).mkdirs();
-
-
-    }
 
     public Map<Integer, PrescriptionEntry> analyzePrescriptions(String filePath) throws IOException {
         if (!templatesLoaded) {

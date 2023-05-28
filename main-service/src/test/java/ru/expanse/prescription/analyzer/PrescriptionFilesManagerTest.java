@@ -15,6 +15,10 @@ import ru.expanse.prescription.analyzer.service.PrescriptionService;
 
 import java.io.IOException;
 
+
+/**
+ * Для работы тестовых методов необходима запущенная БД PostgreSQL. Порт 6541 (если не менялся в настройках)
+ */
 @SpringBootTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
@@ -52,6 +56,7 @@ public class PrescriptionFilesManagerTest {
 
     @Test
     public void createPDFTest() throws DocumentException, IOException {
+
         pdfCreator.createPDF(service.analyzePrescriptions(
                 ResourceUtils.getFile("classpath:dataset/Dataset.xlsx").getPath()));
     }

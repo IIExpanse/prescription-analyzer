@@ -3,13 +3,11 @@ package ru.expanse.prescription.analyzer.export;
 import org.apache.poi.xwpf.usermodel.*;
 import org.springframework.stereotype.Component;
 import ru.expanse.prescription.analyzer.model.PrescriptionEntry;
-import ru.expanse.prescription.analyzer.model.PrescriptionVerdict;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
